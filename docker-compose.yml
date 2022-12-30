@@ -24,7 +24,7 @@ services:
       - LAMBDA_EXECUTOR=${LAMBDA_EXECUTOR-}
       - HOST_TMP_FOLDER='${TMPDIR:-/tmp/}localstack'
       - DOCKER_HOST=unix:///var/run/docker.sock
-      - LAMBDA_DOCKER_NETWORK=data-engineering-take-home_login-network
+      - LAMBDA_DOCKER_NETWORK=fetchcodechallenge_login-network
     volumes:
       - "${TMPDIR:-/tmp}/localstack:/tmp/localstack"
       - "/var/run/docker.sock:/var/run/docker.sock"
