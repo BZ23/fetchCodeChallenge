@@ -39,7 +39,8 @@ See logs: `sh scripts/check_lambda_log.sh`
 Open prompt for Postgres: `sh scripts/query_pg.sh`
 
 for the Postgres command, provide the password - `postgres` - and enter in a query
-such as `select * from user_logins;` or `select count(*) from user_logins;`
+such as `select * from user_logins;` (press Enter key to scroll through records)
+or `select count(*) from user_logins;` (press `\q` to leave postgres)
 
 Based on the data validation and transform requirements, only 99 cases are inserted
 into the database.

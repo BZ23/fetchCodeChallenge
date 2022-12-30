@@ -13,7 +13,7 @@
 # - docker container name
 ################################################################################
 
-dockerContainerName=`echo data-engineering-take-home_postgres_1`
+dockerContainerName=fetchcodechallenge_postgres_1
 echo "Variable - Docker container name used to find Container ID: $dockerContainerName"
 
 containerID=`docker ps -aqf "name=$dockerContainerName"`

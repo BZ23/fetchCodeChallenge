@@ -7,13 +7,13 @@
 # - docker container name
 ################################################################################
 
-lambdaName=`echo fetch_lambda`
+lambdaName=fetch_lambda
 echo "Variable - Lambda name: $lambdaName"
 
 streamPos=6
 echo "Variable - Will pull position from log stream list: $streamPos"
 
-dockerContainerName=`echo data-engineering-take-home_localstack_1`
+dockerContainerName=fetchcodechallenge_localstack_1
 echo "Variable - Docker container name used to find Container ID: $dockerContainerName"
 
 containerID=`docker ps -aqf "name=$dockerContainerName"`
