@@ -1,0 +1,204 @@
+{
+   "Records":[
+      {
+         "body":"{\"user_id\": \"692bef80-12db-4f19-b142-60d7cf450eda\", \"app_version\": \"6.4.8\", \"device_type\": \"ios\", \"ip\": \"222.67.255.168\", \"locale\": null, \"device_id\": \"679-63-2563\"}",
+         "receiptHandle":"NTE1MzdjMDktODZjNy00ZTFmLTkyYjktMTFmMjQ0N2M1ZjUxIGFybjphd3M6c3FzOnVzLWVhc3QtMTowMDAwMDAwMDAwMDA6bG9naW4tcXVldWUgMTQwNDBkNjItOTY5Yi00YmFlLWJmNDktMzMwMzg1ZjEzNWE0IDE2NzIxODE4OTMuMDc0MTY5",
+         "md5OfBody":"40c636004dc27beaa94c02d7b4b549f6",
+         "eventSourceARN":"arn:aws:sqs::000000000000:login-queue",
+         "eventSource":"aws:sqs",
+         "awsRegion":"",
+         "messageId":"14040d62-969b-4bae-bf49-330385f135a4",
+         "attributes":{
+            "SenderId":"000000000000",
+            "SentTimestamp":"1672181797",
+            "ApproximateReceiveCount":"4",
+            "ApproximateFirstReceiveTimestamp":"1672181799.3900957"
+         },
+         "messageAttributes":{
+
+         },
+         "md5OfMessageAttributes":"None",
+         "sqs":true
+      },
+      {
+         "body":"{\"user_id\": \"9135d7bf-5992-4cfd-84bb-52b52030a748\", \"app_version\": \"0.16\", \"device_type\": \"android\", \"ip\": \"158.129.94.244\", \"locale\": null, \"device_id\": \"600-30-3931\"}",
+         "receiptHandle":"YjRjMDcxN2EtZTg3MS00OGM1LTljYmEtZWZmNTY4MzMyNGE0IGFybjphd3M6c3FzOnVzLWVhc3QtMTowMDAwMDAwMDAwMDA6bG9naW4tcXVldWUgYmE5YWI5YzMtOWU4ZS00MGJkLTg0MjktNTVmZTg1NGM5ZWZhIDE2NzIxODE4OTMuMDc0MzAxNQ==",
+         "md5OfBody":"04008b89808c3238ab574aa5227ad245",
+         "eventSourceARN":"arn:aws:sqs::000000000000:login-queue",
+         "eventSource":"aws:sqs",
+         "awsRegion":"",
+         "messageId":"ba9ab9c3-9e8e-40bd-8429-55fe854c9efa",
+         "attributes":{
+            "SenderId":"000000000000",
+            "SentTimestamp":"1672181797",
+            "ApproximateReceiveCount":"4",
+            "ApproximateFirstReceiveTimestamp":"1672181799.390183"
+         },
+         "messageAttributes":{
+
+         },
+         "md5OfMessageAttributes":"None",
+         "sqs":true
+      },
+      {
+         "body":"{\"foo\": \"oops_wrong_msg_type\", \"bar\": \"123\"}",
+         "receiptHandle":"ZjMzY2MwMjYtYmQxMC00MWZkLWE3ODQtZTcxMzZiNWYyZjZkIGFybjphd3M6c3FzOnVzLWVhc3QtMTowMDAwMDAwMDAwMDA6bG9naW4tcXVldWUgYWMwODJkZDQtNzM4MC00ODFmLTg0NmQtOTBhZjAwZDg5ZTdjIDE2NzIxODE4OTMuMDc0Mzc4Nw==",
+         "md5OfBody":"32365e026658d33521484837856cc808",
+         "eventSourceARN":"arn:aws:sqs::000000000000:login-queue",
+         "eventSource":"aws:sqs",
+         "awsRegion":"",
+         "messageId":"ac082dd4-7380-481f-846d-90af00d89e7c",
+         "attributes":{
+            "SenderId":"000000000000",
+            "SentTimestamp":"1672181797",
+            "ApproximateReceiveCount":"4",
+            "ApproximateFirstReceiveTimestamp":"1672181799.3902283"
+         },
+         "messageAttributes":{
+
+         },
+         "md5OfMessageAttributes":"None",
+         "sqs":true
+      },
+      {
+         "body":"{\"user_id\": \"6c72164e-1b7a-446a-906d-fedb45d8f718\", \"app_version\": \"2.0.8\", \"device_type\": \"ios\", \"ip\": \"128.4.0.145\", \"locale\": \"KE\", \"device_id\": \"109-79-7474\"}",
+         "receiptHandle":"ZGEyNWM1MWUtN2VhYy00NmNjLWFhZTMtYWFhYTQ0MTI5NDk0IGFybjphd3M6c3FzOnVzLWVhc3QtMTowMDAwMDAwMDAwMDA6bG9naW4tcXVldWUgY2MwZGZlNTItMDQ1Zi00YWYxLWI0NTctYzc0MzA2ZDZkMGEzIDE2NzIxODE4OTMuMDc0NDM3",
+         "md5OfBody":"de3abe0e3f8ca218d4ae72fd752a96de",
+         "eventSourceARN":"arn:aws:sqs::000000000000:login-queue",
+         "eventSource":"aws:sqs",
+         "awsRegion":"",
+         "messageId":"cc0dfe52-045f-4af1-b457-c74306d6d0a3",
+         "attributes":{
+            "SenderId":"000000000000",
+            "SentTimestamp":"1672181797",
+            "ApproximateReceiveCount":"4",
+            "ApproximateFirstReceiveTimestamp":"1672181799.390266"
+         },
+         "messageAttributes":{
+
+         },
+         "md5OfMessageAttributes":"None",
+         "sqs":true
+      },
+      {
+         "body":"{\"user_id\": \"2d839c07-94fd-4dd8-b535-a21ac271fea3\", \"app_version\": \"7.31\", \"device_type\": \"ios\", \"ip\": \"132.158.62.75\", \"locale\": null, \"device_id\": \"892-24-2405\"}",
+         "receiptHandle":"OGI2MTFjNjgtYmM4MS00OGIwLTg0YmEtMWZkY2IxZmJiMzIzIGFybjphd3M6c3FzOnVzLWVhc3QtMTowMDAwMDAwMDAwMDA6bG9naW4tcXVldWUgNTk0MzE2ODMtMmM4MC00OGFjLTg1OTUtNWU2ZTViODRhMDczIDE2NzIxODE4OTMuMDc0OTE1Mg==",
+         "md5OfBody":"1ee545a106b64c5478569805be869d65",
+         "eventSourceARN":"arn:aws:sqs::000000000000:login-queue",
+         "eventSource":"aws:sqs",
+         "awsRegion":"",
+         "messageId":"59431683-2c80-48ac-8595-5e6e5b84a073",
+         "attributes":{
+            "SenderId":"000000000000",
+            "SentTimestamp":"1672181797",
+            "ApproximateReceiveCount":"4",
+            "ApproximateFirstReceiveTimestamp":"1672181799.3903031"
+         },
+         "messageAttributes":{
+
+         },
+         "md5OfMessageAttributes":"None",
+         "sqs":true
+      },
+      {
+         "body":"{\"user_id\": \"271bd27b-19e9-46c9-a5a4-7c2bb5e35cb0\", \"app_version\": \"7.87\", \"device_type\": \"ios\", \"ip\": \"224.32.130.73\", \"locale\": \"PE\", \"device_id\": \"638-34-7617\"}",
+         "receiptHandle":"MWQ5ZDg2NTItM2FhZS00YzAzLTg3NTItNDRjYWI5ZjQ0YmYwIGFybjphd3M6c3FzOnVzLWVhc3QtMTowMDAwMDAwMDAwMDA6bG9naW4tcXVldWUgMzdmYmIyNjYtNzViNS00NjAyLWI3NTEtNDBlMDYxZDI3MzM4IDE2NzIxODE4OTMuMDc0OTc4",
+         "md5OfBody":"3adef5a01aa8cc42093d3e6c414f91a2",
+         "eventSourceARN":"arn:aws:sqs::000000000000:login-queue",
+         "eventSource":"aws:sqs",
+         "awsRegion":"",
+         "messageId":"37fbb266-75b5-4602-b751-40e061d27338",
+         "attributes":{
+            "SenderId":"000000000000",
+            "SentTimestamp":"1672181797",
+            "ApproximateReceiveCount":"4",
+            "ApproximateFirstReceiveTimestamp":"1672181799.3903396"
+         },
+         "messageAttributes":{
+
+         },
+         "md5OfMessageAttributes":"None",
+         "sqs":true
+      },
+      {
+         "body":"{\"user_id\": \"5e802e77-427d-4618-b437-ad4fb1461c0d\", \"app_version\": \"6.80\", \"device_type\": \"ios\", \"ip\": \"25.60.74.6\", \"locale\": \"ID\", \"device_id\": \"502-73-3953\"}",
+         "receiptHandle":"MmFlMTBhNjUtZDg2Ni00NWRkLTg4MjEtYTJiMWNlMjkxNWI3IGFybjphd3M6c3FzOnVzLWVhc3QtMTowMDAwMDAwMDAwMDA6bG9naW4tcXVldWUgODZmZWIzODktMmViOS00ZmRlLTg3N2UtZDg2NWQyYTFhNzU3IDE2NzIxODE4OTMuMDc1MDI5MQ==",
+         "md5OfBody":"5474a789db15c4d11faf82a268be6986",
+         "eventSourceARN":"arn:aws:sqs::000000000000:login-queue",
+         "eventSource":"aws:sqs",
+         "awsRegion":"",
+         "messageId":"86feb389-2eb9-4fde-877e-d865d2a1a757",
+         "attributes":{
+            "SenderId":"000000000000",
+            "SentTimestamp":"1672181797",
+            "ApproximateReceiveCount":"4",
+            "ApproximateFirstReceiveTimestamp":"1672181799.390457"
+         },
+         "messageAttributes":{
+
+         },
+         "md5OfMessageAttributes":"None",
+         "sqs":true
+      },
+      {
+         "body":"{\"user_id\": \"901905c7-a1ef-47bf-b28b-8f8d3f8df807\", \"app_version\": \"5.56\", \"device_type\": \"ios\", \"ip\": \"151.44.159.241\", \"locale\": \"KR\", \"device_id\": \"267-70-3759\"}",
+         "receiptHandle":"ODAxYTEzOTctNzMzYS00NTk0LTg5OTgtOGRkYjhkZTg4ZGIzIGFybjphd3M6c3FzOnVzLWVhc3QtMTowMDAwMDAwMDAwMDA6bG9naW4tcXVldWUgMmExMGEwYTYtMjQwYS00YzczLWIwZDMtMDFlYjViNGIzYzA2IDE2NzIxODE4OTMuMDc1MDc1Ng==",
+         "md5OfBody":"d1a598b256a94abed6b466cda884e6d0",
+         "eventSourceARN":"arn:aws:sqs::000000000000:login-queue",
+         "eventSource":"aws:sqs",
+         "awsRegion":"",
+         "messageId":"2a10a0a6-240a-4c73-b0d3-01eb5b4b3c06",
+         "attributes":{
+            "SenderId":"000000000000",
+            "SentTimestamp":"1672181797",
+            "ApproximateReceiveCount":"4",
+            "ApproximateFirstReceiveTimestamp":"1672181799.3905113"
+         },
+         "messageAttributes":{
+
+         },
+         "md5OfMessageAttributes":"None",
+         "sqs":true
+      },
+      {
+         "body":"{\"user_id\": \"b018771c-cef7-42af-b595-83bf78cea441\", \"app_version\": \"1.1\", \"device_type\": \"android\", \"ip\": \"119.61.208.245\", \"locale\": \"KR\", \"device_id\": \"432-44-9858\"}",
+         "receiptHandle":"M2FhMDUyNTctZTg5Zi00Y2E2LWEyOTgtYTBjYmFkNWY5YjVkIGFybjphd3M6c3FzOnVzLWVhc3QtMTowMDAwMDAwMDAwMDA6bG9naW4tcXVldWUgYmE3NmJiOWMtZWE2OC00OGI1LTliMjQtNzY1ZDFlYjcwY2Y4IDE2NzIxODE4OTMuMDc1MTQxMg==",
+         "md5OfBody":"01063935c80e0194d0602f60b7761df4",
+         "eventSourceARN":"arn:aws:sqs::000000000000:login-queue",
+         "eventSource":"aws:sqs",
+         "awsRegion":"",
+         "messageId":"ba76bb9c-ea68-48b5-9b24-765d1eb70cf8",
+         "attributes":{
+            "SenderId":"000000000000",
+            "SentTimestamp":"1672181797",
+            "ApproximateReceiveCount":"4",
+            "ApproximateFirstReceiveTimestamp":"1672181799.3905516"
+         },
+         "messageAttributes":{
+
+         },
+         "md5OfMessageAttributes":"None",
+         "sqs":true
+      },
+      {
+         "body":"{\"user_id\": \"74847efb-c793-4336-b7be-79b46793d05b\", \"app_version\": \"5.4.8\", \"device_type\": \"android\", \"ip\": \"127.96.0.101\", \"locale\": null, \"device_id\": \"421-19-8311\"}",
+         "receiptHandle":"NTExYzE0ZjAtOGM5OC00OGM5LTkwYTMtZGZhODVhZmUzOTIzIGFybjphd3M6c3FzOnVzLWVhc3QtMTowMDAwMDAwMDAwMDA6bG9naW4tcXVldWUgNjY1OWE1ZjUtNDAyNi00ZjUzLTk1ODEtMjQyNWFjN2E5NjgxIDE2NzIxODE4OTMuMDc1MTkxNw==",
+         "md5OfBody":"da61119ab8e7aa05757ee57b068ae828",
+         "eventSourceARN":"arn:aws:sqs::000000000000:login-queue",
+         "eventSource":"aws:sqs",
+         "awsRegion":"",
+         "messageId":"6659a5f5-4026-4f53-9581-2425ac7a9681",
+         "attributes":{
+            "SenderId":"000000000000",
+            "SentTimestamp":"1672181797",
+            "ApproximateReceiveCount":"4",
+            "ApproximateFirstReceiveTimestamp":"1672181799.3905902"
+         },
+         "messageAttributes":{
+
+         },
+         "md5OfMessageAttributes":"None",
+         "sqs":true
+      }
+   ]
+}

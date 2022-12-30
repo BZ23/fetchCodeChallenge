@@ -1,0 +1,56 @@
+################################################################################
+# Throughout the development process some tweaking was done on this file to
+# not only move files to the docker containers, but also ensure that one
+# container could communicate with the postgres DB.
+
+# As a result, a user defined network was created to allow this connection.
+# It appeared as though the default bridge network wasn't registering all the
+# cntainers, but a user defined network can be referenced by name rather than IP
+# for the host, so tha was also adventageous when specifying the
+# LAMBDA_DOCKER_NETWORK parameter since localstack will spin up another docker
+# container to do so.
+################################################################################
+
+version: "3.9"
+services:
+  localstack:
+    image: localstack/localstack:0.14.3
+    ports:
+      - "127.0.0.1:443:443"              # only required for Pro (LocalStack HTTPS Edge Proxy)
+      - "127.0.0.1:4510-4559:4510-4559"  # external service port range
+      - "127.0.0.1:4566:4566"            # LocalStack Edge Proxy
+    environment:
+      - DEBUG=${DEBUG-}
+      - LAMBDA_EXECUTOR=${LAMBDA_EXECUTOR-}
+      - HOST_TMP_FOLDER='${TMPDIR:-/tmp/}localstack'
+      - DOCKER_HOST=unix:///var/run/docker.sock
+      - LAMBDA_DOCKER_NETWORK=data-engineering-take-home_login-network
+    volumes:
+      - "${TMPDIR:-/tmp}/localstack:/tmp/localstack"
+      - "/var/run/docker.sock:/var/run/docker.sock"
+      - ${PWD}/data/sample_data.json.gz:/tmp/data/sample_data.json.gz
+      - ${PWD}/scripts/:/tmp/scripts/
+      - ${PWD}/src/:/tmp/src/
+      - ${PWD}/IAM/:/tmp/IAM/
+      - ${PWD}/psycopg2/:/tmp/psycopg2/
+      - ${PWD}/deploy-requirements.txt:/tmp/deploy-requirements.txt
+      - ${PWD}/scripts/01_call_python_scripts.sh:/docker-entrypoint-initaws.d/01_call_python_scripts.sh
+    networks:
+      - login-network
+  postgres:
+    image: postgres:10
+    environment:
+      - POSTGRES_DB=postgres
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    ports:
+      - 5432:5432
+    expose:
+      - 5432
+    volumes:
+      - ${PWD}/scripts/create_table.sql:/docker-entrypoint-initdb.d/create_table.sql
+    networks:
+      - login-network
+networks:
+  login-network:
+    external: false
