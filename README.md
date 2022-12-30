@@ -1,6 +1,12 @@
 ## Introduction
 This document provides insight into this coding exercise and my decisions. In
-addition, for each file I updated, I over-commented on its changes.
+addition, for each file I updated, I attempted to over-comment on its changes.
+Note that I used the original code exercise as a basis for my solution so I've
+copied all of the existing code that was provided and list the new or changed
+files below.
+
+To complete the task of writing to a postgres database using localstack, I opted
+to do that through an AWS lambda integrated with the SQS queue as an event source.
 
 ## Inventory of Added/Changed files
 - data/sqs_data_record.json
@@ -17,14 +23,13 @@ addition, for each file I updated, I over-commented on its changes.
 - docker-compose.yml
 
 ## How to run
-To complete the task of writing to a postgres database using localstack, I opted
-to do that through an AWS lambda integrated with the SQS queue as an event source.
-
 To run this code solution, follow the same pre-requisites provided in the company
-provided README, using `make start` from the main directory to start the code and
-write to the database. Because localstack uses docker containers for lambdas, once
-the `make start` command completes, wait for a few moments and a separate lambda
-container will activate and run the code to write to Postgres.  
+provided README, using `make start` from the `Project Setup` section. Follow until
+Step 3 if you're system is not already configured
+(See instructions here: https://bitbucket.org/fetchrewards/data-engineering-take-home/src/master/).
+Because localstack uses docker containers for lambdas, once the `make start`
+command completes, wait for a few moments and a separate lambda container will
+activate and run the code to write to Postgres.  
 
 To provide easier access to the database and lambda logs, run the following
 commands from the main directory of the git repo:
